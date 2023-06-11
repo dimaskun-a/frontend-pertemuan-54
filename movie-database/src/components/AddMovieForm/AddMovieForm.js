@@ -33,11 +33,7 @@ function AddMovieForm(props) {
     // Destructing name dan value.
     const { name, value } = e.target;
 
-    /**
-    * Mengupdate state berupa object:
-    * - Menggunakan spread operator:
-    * - Update property berdasarkan nilai name.
-    */
+    
     setFormData({
       ...formData,
       [name]: value,
